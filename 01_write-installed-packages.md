@@ -1,9 +1,10 @@
 01_write-installed-packages.R
 ================
 caseyross
-2022-07-25
+2022-07-26
 
 ``` r
+#an insightful comment
 library(tidyverse)
 ```
 
@@ -27,7 +28,7 @@ write_csv(x = ipt, "installed-packages.csv")
 ipt
 ```
 
-    ## # A tibble: 269 × 5
+    ## # A tibble: 271 × 5
     ##    Package     LibPath                                     Version Prior…¹ Built
     ##    <chr>       <chr>                                       <chr>   <chr>   <chr>
     ##  1 anytime     /Users/caseyross/Library/R/arm64/4.2/libra… 0.3.9   <NA>    4.2.0
@@ -40,5 +41,5 @@ ipt
     ##  8 conflicted  /Users/caseyross/Library/R/arm64/4.2/libra… 1.1.0   <NA>    4.2.0
     ##  9 credentials /Users/caseyross/Library/R/arm64/4.2/libra… 1.3.2   <NA>    4.2.0
     ## 10 crosstalk   /Users/caseyross/Library/R/arm64/4.2/libra… 1.2.0   <NA>    4.2.0
-    ## # … with 259 more rows, and abbreviated variable name ¹​Priority
+    ## # … with 261 more rows, and abbreviated variable name ¹​Priority
     ## # ℹ Use `print(n = ...)` to see more rows
